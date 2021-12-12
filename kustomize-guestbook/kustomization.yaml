@@ -1,5 +1,6 @@
 namePrefix: kustomize-
-
+commonLabels:
+  owner: ron
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
